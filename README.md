@@ -7,5 +7,5 @@
  * ###### Green : Success
 
 ![warning](https://github.com/Prasadpoojary/api-validation/blob/master/api-validation/api-validation/SC1.png)
-![error](https://github.com/Prasadpoojary/api-validation/blob/master/api-validation/api-validation/SC2.png)
-![success](https://github.com/Prasadpoojary/api-validation/blob/master/api-validation/api-validation/SC3.png)
+![error](https://github.com/Prasadpoojary/api-validation/blob/master/api-validation/api-validation/SC3.png)
+![success](https://github.com/Prasadpoojary/api-validation/blob/master/api-validation/api-validation/SC2.png)
