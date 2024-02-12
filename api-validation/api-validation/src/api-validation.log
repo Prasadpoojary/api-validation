@@ -1,0 +1,30 @@
+2024-02-13T00:01:20.759+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Entry into validate green routes of hotel-management project
+2024-02-13T00:01:20.768+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Reading list of API of hotel-management project
+2024-02-13T00:01:20.768+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Reading green config file
+2024-02-13T00:01:20.773+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : file read and returned list of 'Projects'
+2024-02-13T00:01:20.780+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : fetching API : http://127.0.0.1:9090/api/test , Method : GET
+2024-02-13T00:01:20.783+05:30 ERROR 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception while fetching API : I/O error on GET request for "http://127.0.0.1:9090/api/test": Connection refused: connect
+2024-02-13T00:01:20.783+05:30  WARN 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception occurred, retrying API fetch. Retry limit : 1
+2024-02-13T00:01:20.783+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : fetching API : http://127.0.0.1:9090/api/test , Method : GET
+2024-02-13T00:01:20.785+05:30 ERROR 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception while fetching API : I/O error on GET request for "http://127.0.0.1:9090/api/test": Connection refused: connect
+2024-02-13T00:01:20.785+05:30  WARN 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception occurred, retrying API fetch. Retry limit : 0
+2024-02-13T00:01:20.785+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : fetching API : http://127.0.0.1:9090/api/test , Method : GET
+2024-02-13T00:01:20.787+05:30 ERROR 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception while fetching API : I/O error on GET request for "http://127.0.0.1:9090/api/test": Connection refused: connect
+2024-02-13T00:01:20.787+05:30 ERROR 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Retry limit exceeded, returned 'Exception' Response 
+2024-02-13T00:01:20.787+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : fetching API : http://127.0.0.1:9990/api/test , Method : GET
+2024-02-13T00:01:20.789+05:30 ERROR 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception while fetching API : I/O error on GET request for "http://127.0.0.1:9990/api/test": Connection refused: connect
+2024-02-13T00:01:20.789+05:30  WARN 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception occurred, retrying API fetch. Retry limit : 1
+2024-02-13T00:01:20.789+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : fetching API : http://127.0.0.1:9990/api/test , Method : GET
+2024-02-13T00:01:20.790+05:30 ERROR 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception while fetching API : I/O error on GET request for "http://127.0.0.1:9990/api/test": Connection refused: connect
+2024-02-13T00:01:20.791+05:30  WARN 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception occurred, retrying API fetch. Retry limit : 0
+2024-02-13T00:01:20.791+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : fetching API : http://127.0.0.1:9990/api/test , Method : GET
+2024-02-13T00:01:20.793+05:30 ERROR 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exception while fetching API : I/O error on GET request for "http://127.0.0.1:9990/api/test": Connection refused: connect
+2024-02-13T00:01:20.793+05:30 ERROR 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Retry limit exceeded, returned 'Exception' Response 
+2024-02-13T00:01:20.793+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : fetching API : https://dummyjson.com/posts/add , Method : POST
+2024-02-13T00:01:21.880+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Parsing JSON response
+2024-02-13T00:01:21.881+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : fetching API : https://dummyjson.com/posts/2 , Method : GET
+2024-02-13T00:01:22.164+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Parsing JSON response
+2024-02-13T00:01:22.165+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Reading Project names from 'blue' config file
+2024-02-13T00:01:22.165+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Reading blue config file
+2024-02-13T00:01:22.170+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : file read and returned list of 'Projects'
+2024-02-13T00:01:22.171+05:30  INFO 10152 --- [http-nio-8080-exec-7] c.p.a.controller.ValidationController    : Exit from validate green routes of hotel-management project

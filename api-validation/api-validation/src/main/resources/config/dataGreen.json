@@ -1,0 +1,140 @@
+[
+  {
+    "project": "hotel-management",
+    "api": [
+      {
+        "url": "http://127.0.0.1:9090/api/test",
+        "method": "GET",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {}
+      },
+      {
+        "url": "http://127.0.0.1:9990/api/test",
+        "method": "GET",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {}
+      },
+      {
+        "url": "https://dummyjson.com/posts/add",
+        "method": "POST",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {
+          "title":"hello world....",
+          "userId":10
+        }
+      },
+      {
+        "url": "https://dummyjson.com/posts/2",
+        "method": "GET",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {}
+      }
+    ]
+  },
+  {
+    "project": "eBook-app",
+    "api": [
+      {
+        "url": "https://dummyjson.com/posts/2",
+        "method": "GET",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {}
+      }
+    ]
+  },
+  {
+    "project": "payment-gateway",
+    "api": [
+      {
+        "url": "https://something.com/api/",
+        "method": "POST",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {}
+      }
+    ]
+  },
+  {
+    "project": "training-site",
+    "api": [
+      {
+        "url": "https://something.com/api/",
+        "method": "POST",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {}
+      }
+    ]
+  },
+  {
+    "project": "clinic-env",
+    "api": [
+      {
+        "url": "https://something.com/api/",
+        "method": "POST",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {}
+      }
+    ]
+  },
+  {
+    "project": "eStore-management",
+    "api": [
+      {
+        "url": "https://something.com/api/",
+        "method": "POST",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {}
+      }
+    ]
+  },
+  {
+    "project": "validation-project",
+    "api": [
+      {
+        "url": "http://127.0.0.1:9990/api/test",
+        "method": "GET",
+        "header": [
+          {
+            "content-type":"application/json"
+          }
+        ],
+        "body": {}
+      }
+    ]
+  }
+]

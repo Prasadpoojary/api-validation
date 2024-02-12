@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../JS/script.js"></script>
+    <title>API Validation</title>
+</head>
+<body>
+    <header>
+        <h1>API <span>Validation</span></h1>
+        <h6>Jan 23rd, 2024 23:45 MST</h6>
+    </header>
+    <section>
+        <div class="menu-container">
+            <div class="project-container">
+                <div class="project">
+                    <!-- added below <a> tag without 'href' for future modification of updating/modifying api and request body -->
+                    <a>
+                        <div class="project-details">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                            <h5>hotel-management</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a>
+                        <div class="project-details">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                            <h5>payment-gateway</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a>
+                        <div class="project-details">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                            <h5>registration-login</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a>
+                        <div class="project-details">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                            <h5>QR-scanner</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a>
+                        <div class="project-details">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                            <h5>Digital-services</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a>
+                        <div class="project-details">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                            <h5>Technologies</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a>
+                        <div class="project-details">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                            <h5>eBook-store</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="selected-project-container">
+                <div class="selected-project-name">
+                    <div class="design-disc" >
+                        <div class="outer-disc">
+                            <div class="inner-disc">
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h5>am-payment-c2</h5>
+                </div>
+                <div class="selected-project-action">
+                    <a id="validate-green">
+                        <button>
+                            Validate 
+                            <span class="icon"><i class="fa-solid fa-circle"></i></span>
+                            <span class="spinner"><i class="fa-solid fa-spinner fa-spin"></i></span>
+                            <span class="type-green">GREEN</span>
+                        </button>
+                    </a>
+                    <a id="validate-blue">
+                        <button>
+                            Validate 
+                            <span class="icon"><i class="fa-solid fa-circle"></i></span>
+                            <span class="spinner"><i class="fa-solid fa-spinner fa-spin"></i></span>
+                            <span class="type-blue">BLUE</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="api-container">
+                <div class="loader">
+                    <span class="spinner"><i class="fa-solid fa-spinner fa-spin"></i></span>
+                </div>
+                <div class="api error" title="https://github.com/frontenddevtrainer/music-shop-base/issues/new/choose">
+                    <div class="api-header">
+                      <div class="api-url">
+                            <i class="fa-solid fa-circle-xmark"></i>
+                            <p>https://github.com/frontenddevtrainer/music-shop-base/issues/new/choose</p>
+                      </div>
+                      <div class="api-status">
+                            <h6>500</h6>
+                            <i class="fa-solid fa-chevron-down"></i>
+                      </div>
+                    </div>
+                    <div class="api-response">
+                        <code>
+                                {<br>
+                                    "postId": 1,<br>
+                                    "id": 1,<br>
+                                    "name": "id labore ex et quam laborum",<br>
+                                    "email": "Eliseo@gardner.biz",<br>
+                                    "name": "id labore ex et quam laborum",<br>
+                                    "email": "Eliseo@gardner.biz",<br>
+                                    "name": "id labore ex et quam laborum",<br>
+                                    "email": "Eliseo@gardner.biz",<br>
+                                    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+                                 <br> }
+                        </code>
+                    </div>
+                </div>
+                <div class="api warn" title="https://github.com/frontenddevtrainer/music-shop-base/issues/new/choose">
+                    <div class="api-header">
+                      <div class="api-url">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <p>https://github.com/frontenddevtrainer/music-shop-base/issues/new/choose</p>
+                      </div>
+                      <div class="api-status">
+                            <h6 title="Please retry"><i class="fa-solid fa-rotate-right"></i></h6>
+                            <i class="fa-solid fa-chevron-down"></i>
+                      </div>
+                    </div>
+                    <div class="api-response">
+                        <code>
+                                {<br>
+                                    "postId": 1,<br>
+                                    "id": 1,<br>
+                                    "name": "id labore ex et quam laborum",<br>
+                                    "email": "Eliseo@gardner.biz",<br>
+                                    "name": "id labore ex et quam laborum",<br>
+                                    "email": "Eliseo@gardner.biz",<br>
+                                    "name": "id labore ex et quam laborum",<br>
+                                    "email": "Eliseo@gardner.biz",<br>
+                                    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+                                 <br> }
+                        </code>
+                    </div>
+                </div>
+                <div class="api" title="https://github.com/frontenddevtrainer/music-shop-base/issues/new/choose">
+                    <div class="api-header">
+                      <div class="api-url">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <p>https://github.com/frontenddevtrainer/music-shop-base/issues/new/choose</p>
+                      </div>
+                      <div class="api-status">
+                            <h6>200</h6>
+                            <i class="fa-solid fa-chevron-down"></i>
+                      </div>
+                    </div>
+                    <div class="api-response">
+                        <code>
+                                {<br>
+                                    "postId": 1,<br>
+                                    "id": 1,<br>
+                                    "name": "id labore ex et quam laborum",<br>
+                                    "email": "Eliseo@gardner.biz",<br>
+                                    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+                                 <br> }
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
